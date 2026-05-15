@@ -2397,6 +2397,12 @@ img {
 					<a href="_grid_types_grid_interfaces_d_.gridprops.html#oncellclick" class="tsd-kind-icon">on<wbr>Cell<wbr>Click</a>
 				</li>
 				<li class=" tsd-kind-event tsd-parent-kind-interface">
+					<a href="_grid_types_grid_interfaces_d_.gridprops.html#oncelldeselect" class="tsd-kind-icon">on<wbr>Cell<wbr>Deselect</a>
+				</li>
+				<li class=" tsd-kind-event tsd-parent-kind-interface tsd-is-private">
+					<a href="_grid_types_grid_interfaces_d_.gridprops.html#oncelldeselecting" class="tsd-kind-icon">on<wbr>Cell<wbr>Deselecting</a>
+				</li>
+				<li class=" tsd-kind-event tsd-parent-kind-interface">
 					<a href="_grid_types_grid_interfaces_d_.gridprops.html#oncellfocus" class="tsd-kind-icon">on<wbr>Cell<wbr>Focus</a>
 				</li>
 				<li class=" tsd-kind-event tsd-parent-kind-interface tsd-is-private">
@@ -2404,6 +2410,12 @@ img {
 				</li>
 				<li class=" tsd-kind-event tsd-parent-kind-interface tsd-is-private">
 					<a href="_grid_types_grid_interfaces_d_.gridprops.html#oncellrender" class="tsd-kind-icon">on<wbr>Cell<wbr>Render</a>
+				</li>
+				<li class=" tsd-kind-event tsd-parent-kind-interface">
+					<a href="_grid_types_grid_interfaces_d_.gridprops.html#oncellselect" class="tsd-kind-icon">on<wbr>Cell<wbr>Select</a>
+				</li>
+				<li class=" tsd-kind-event tsd-parent-kind-interface tsd-is-private">
+					<a href="_grid_types_grid_interfaces_d_.gridprops.html#oncellselecting" class="tsd-kind-icon">on<wbr>Cell<wbr>Selecting</a>
 				</li>
 				<li class=" tsd-kind-event tsd-parent-kind-interface">
 					<a href="_grid_types_grid_interfaces_d_.gridprops.html#oncolumnchooserapply" class="tsd-kind-icon">on<wbr>Column<wbr>Chooser<wbr>Apply</a>
@@ -2718,9 +2730,13 @@ img {
 							<li class="tsd-kind-event tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_grid_interfaces_d_.gridprops.html#onaggregatecellrender" class="tsd-kind-icon">on<wbr>Aggregate<wbr>Cell<wbr>Render</a></li>
 							<li class="tsd-kind-event tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_grid_interfaces_d_.gridprops.html#onaggregaterowrender" class="tsd-kind-icon">on<wbr>Aggregate<wbr>Row<wbr>Render</a></li>
 							<li class="tsd-kind-event tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.gridprops.html#oncellclick" class="tsd-kind-icon">on<wbr>Cell<wbr>Click</a></li>
+							<li class="tsd-kind-event tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.gridprops.html#oncelldeselect" class="tsd-kind-icon">on<wbr>Cell<wbr>Deselect</a></li>
+							<li class="tsd-kind-event tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_grid_interfaces_d_.gridprops.html#oncelldeselecting" class="tsd-kind-icon">on<wbr>Cell<wbr>Deselecting</a></li>
 							<li class="tsd-kind-event tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.gridprops.html#oncellfocus" class="tsd-kind-icon">on<wbr>Cell<wbr>Focus</a></li>
 							<li class="tsd-kind-event tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_grid_interfaces_d_.gridprops.html#oncellfocusstart" class="tsd-kind-icon">on<wbr>Cell<wbr>Focus<wbr>Start</a></li>
 							<li class="tsd-kind-event tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_grid_interfaces_d_.gridprops.html#oncellrender" class="tsd-kind-icon">on<wbr>Cell<wbr>Render</a></li>
+							<li class="tsd-kind-event tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.gridprops.html#oncellselect" class="tsd-kind-icon">on<wbr>Cell<wbr>Select</a></li>
+							<li class="tsd-kind-event tsd-parent-kind-interface tsd-is-private"><a href="_grid_types_grid_interfaces_d_.gridprops.html#oncellselecting" class="tsd-kind-icon">on<wbr>Cell<wbr>Selecting</a></li>
 							<li class="tsd-kind-event tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.gridprops.html#oncolumnchooserapply" class="tsd-kind-icon">on<wbr>Column<wbr>Chooser<wbr>Apply</a></li>
 							<li class="tsd-kind-event tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.gridprops.html#oncolumnchooserbeforeopen" class="tsd-kind-icon">on<wbr>Column<wbr>Chooser<wbr>Before<wbr>Open</a></li>
 							<li class="tsd-kind-event tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.gridprops.html#oncontextmenuclick" class="tsd-kind-icon">on<wbr>Context<wbr>Menu<wbr>Click</a></li>
@@ -2820,7 +2836,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Aggregate<wbr>Cell<wbr>Render<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AggregateCellRenderEvent</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1627</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1646</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2857,7 +2873,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Aggregate<wbr>Row<wbr>Render<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AggregateRowRenderEvent</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1651</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1670</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2894,7 +2910,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Cell<wbr>Click<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_focus_interfaces_d_.cellfocusevent.html" class="tsd-signature-type">CellFocusEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:2029</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2048</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2944,12 +2960,125 @@ img {
 				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-event tsd-parent-kind-interface">
+				<a name="oncelldeselect" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> on<wbr>Cell<wbr>Deselect</h3>
+				<div class="tsd-signature tsd-kind-icon">on<wbr>Cell<wbr>Deselect<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_cell_selection_interfaces_d_.celldeselectevent.html" class="tsd-signature-type">CellDeselectEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2225</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Fires after cells are successfully deselected in the grid.
+							Provides details about the deselected cells.
+						Only fires when selectionSettings.type is &#39;Cell&#39;.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>example</dt>
+						<dd><pre><code class="language-tsx">const GridComponent = () =&gt; {
+  const handleCellDeselect = (event: CellDeselectEvent) =&gt; {
+    console.log(&#39;Deselected cells:&#39;, event.cells);
+  };
+
+  return (
+    &lt;Grid
+      dataSource={orderData}
+      onCellDeselect={handleCellDeselect}
+      selectionSettings={{ type: &#39;Cell&#39;, cellSelection: { enabled: true } }}
+    /&gt;
+  );
+};</code></pre>
+						</dd>
+					</dl>
+				</div>
+				<div class="tsd-type-declaration">
+					<h4>Type declaration</h4>
+					<ul class="tsd-parameters">
+						<li class="tsd-parameter-siganture">
+							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-event">
+								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_cell_selection_interfaces_d_.celldeselectevent.html" class="tsd-signature-type">CellDeselectEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+							</ul>
+							<ul class="tsd-descriptions">
+								<li class="tsd-description">
+									<h4 class="tsd-parameters-title">Parameters</h4>
+									<ul class="tsd-parameters">
+										<li>
+											<h5>event: <a href="_grid_types_cell_selection_interfaces_d_.celldeselectevent.html" class="tsd-signature-type">CellDeselectEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+										</li>
+									</ul>
+									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-event tsd-parent-kind-interface tsd-is-private">
+				<a name="oncelldeselecting" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> <span class="tsd-flag ts-flagPrivate">Private</span> on<wbr>Cell<wbr>Deselecting</h3>
+				<div class="tsd-signature tsd-kind-icon">on<wbr>Cell<wbr>Deselecting<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_cell_selection_interfaces_d_.celldeselectingevent.html" class="tsd-signature-type">CellDeselectingEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2201</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Fires before cells are deselected in the grid.
+							Allows validation or cancellation of cell deselection.
+						Only fires when selectionSettings.type is &#39;Cell&#39;.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>example</dt>
+						<dd><pre><code class="language-tsx">const GridComponent = () =&gt; {
+  const handleCellDeselecting = (event: CellDeselectingEvent) =&gt; {
+    // Prevent deselection of specific cells
+    if (event.cells.length &gt; 5) {
+      event.cancel = true;
+    }
+  };
+
+  return (
+    &lt;Grid
+      dataSource={orderData}
+      onCellDeselecting={handleCellDeselecting}
+      selectionSettings={{ type: &#39;Cell&#39;, cellSelection: { enabled: true } }}
+    /&gt;
+  );
+};</code></pre>
+						</dd>
+					</dl>
+				</div>
+				<div class="tsd-type-declaration">
+					<h4>Type declaration</h4>
+					<ul class="tsd-parameters">
+						<li class="tsd-parameter-siganture">
+							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-event">
+								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_cell_selection_interfaces_d_.celldeselectingevent.html" class="tsd-signature-type">CellDeselectingEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+							</ul>
+							<ul class="tsd-descriptions">
+								<li class="tsd-description">
+									<h4 class="tsd-parameters-title">Parameters</h4>
+									<ul class="tsd-parameters">
+										<li>
+											<h5>event: <a href="_grid_types_cell_selection_interfaces_d_.celldeselectingevent.html" class="tsd-signature-type">CellDeselectingEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+										</li>
+									</ul>
+									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-event tsd-parent-kind-interface">
 				<a name="oncellfocus" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagOptional">Optional</span> on<wbr>Cell<wbr>Focus</h3>
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Cell<wbr>Focus<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_focus_interfaces_d_.cellfocusevent.html" class="tsd-signature-type">CellFocusEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:2005</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2024</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3002,7 +3131,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Cell<wbr>Focus<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_focus_interfaces_d_.cellfocusevent.html" class="tsd-signature-type">CellFocusEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:2037</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2056</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3039,7 +3168,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Cell<wbr>Render<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_interfaces_d_.cellrenderevent.html" class="tsd-signature-type">CellRenderEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1635</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1654</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3071,12 +3200,126 @@ img {
 				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-event tsd-parent-kind-interface">
+				<a name="oncellselect" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> on<wbr>Cell<wbr>Select</h3>
+				<div class="tsd-signature tsd-kind-icon">on<wbr>Cell<wbr>Select<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_cell_selection_interfaces_d_.cellselectevent.html" class="tsd-signature-type">CellSelectEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2173</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Fires after cells are successfully selected in the grid.
+							Provides details about the selected cells including data and positions.
+						Only fires when selectionSettings.type is &#39;Cell&#39;.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>example</dt>
+						<dd><pre><code class="language-tsx">const GridComponent = () =&gt; {
+  const handleCellSelect = (event: CellSelectEvent) =&gt; {
+    console.log(&#39;Selected cells:&#39;, event.cells);
+    console.log(&#39;Cell data:&#39;, event.data);
+  };
+
+  return (
+    &lt;Grid
+      dataSource={orderData}
+      onCellSelect={handleCellSelect}
+      selectionSettings={{ type: &#39;Cell&#39;, cellSelection: { enabled: true } }}
+    /&gt;
+  );
+};</code></pre>
+						</dd>
+					</dl>
+				</div>
+				<div class="tsd-type-declaration">
+					<h4>Type declaration</h4>
+					<ul class="tsd-parameters">
+						<li class="tsd-parameter-siganture">
+							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-event">
+								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_cell_selection_interfaces_d_.cellselectevent.html" class="tsd-signature-type">CellSelectEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+							</ul>
+							<ul class="tsd-descriptions">
+								<li class="tsd-description">
+									<h4 class="tsd-parameters-title">Parameters</h4>
+									<ul class="tsd-parameters">
+										<li>
+											<h5>event: <a href="_grid_types_cell_selection_interfaces_d_.cellselectevent.html" class="tsd-signature-type">CellSelectEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+										</li>
+									</ul>
+									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-event tsd-parent-kind-interface tsd-is-private">
+				<a name="oncellselecting" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> <span class="tsd-flag ts-flagPrivate">Private</span> on<wbr>Cell<wbr>Selecting</h3>
+				<div class="tsd-signature tsd-kind-icon">on<wbr>Cell<wbr>Selecting<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_cell_selection_interfaces_d_.cellselectingevent.html" class="tsd-signature-type">CellSelectingEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2148</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Fires before cells are selected in the grid.
+							Allows validation or cancellation of cell selection.
+						Only fires when selectionSettings.type is &#39;Cell&#39;.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>example</dt>
+						<dd><pre><code class="language-tsx">const GridComponent = () =&gt; {
+  const handleCellSelecting = (event: CellSelectingEvent) =&gt; {
+    // Prevent selection of specific cells
+    if (event.cells.some(cell =&gt; cell.rowIndex === 0)) {
+      event.cancel = true;
+    }
+  };
+
+  return (
+    &lt;Grid
+      dataSource={orderData}
+      onCellSelecting={handleCellSelecting}
+      selectionSettings={{ type: &#39;Cell&#39;, cellSelection: { enabled: true } }}
+    /&gt;
+  );
+};</code></pre>
+						</dd>
+					</dl>
+				</div>
+				<div class="tsd-type-declaration">
+					<h4>Type declaration</h4>
+					<ul class="tsd-parameters">
+						<li class="tsd-parameter-siganture">
+							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-event">
+								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_cell_selection_interfaces_d_.cellselectingevent.html" class="tsd-signature-type">CellSelectingEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+							</ul>
+							<ul class="tsd-descriptions">
+								<li class="tsd-description">
+									<h4 class="tsd-parameters-title">Parameters</h4>
+									<ul class="tsd-parameters">
+										<li>
+											<h5>event: <a href="_grid_types_cell_selection_interfaces_d_.cellselectingevent.html" class="tsd-signature-type">CellSelectingEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+										</li>
+									</ul>
+									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-event tsd-parent-kind-interface">
 				<a name="oncolumnchooserapply" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagOptional">Optional</span> on<wbr>Column<wbr>Chooser<wbr>Apply</h3>
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Column<wbr>Chooser<wbr>Apply<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_grid_interfaces_d_.columnchooserapplyevent.html" class="tsd-signature-type">ColumnChooserApplyEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1869</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1888</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3133,7 +3376,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Column<wbr>Chooser<wbr>Before<wbr>Open<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_grid_interfaces_d_.columnchooserbeforeopenevent.html" class="tsd-signature-type">ColumnChooserBeforeOpenEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1843</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1862</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3190,7 +3433,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Context<wbr>Menu<wbr>Click<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ContextMenuSelectEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1523</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1532</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3251,7 +3494,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Context<wbr>Menu<wbr>Close<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1495</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1504</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3304,7 +3547,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Context<wbr>Menu<wbr>Open<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_context_interfaces_d_.contextmenuopenevent.html" class="tsd-signature-type">ContextMenuOpenEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="_grid_types_context_interfaces_d_.contextmenuopenevent.html" class="tsd-signature-type">ContextMenuOpenEvent</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_context_interfaces_d_.contextmenuopenevent.html" class="tsd-signature-type">ContextMenuOpenEvent</a><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1467</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1476</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3379,7 +3622,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Data<wbr>Change<wbr>Cancel<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_edit_interfaces_d_.formcancelevent.html" class="tsd-signature-type">FormCancelEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:2270</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2394</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3433,7 +3676,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Data<wbr>Change<wbr>Complete<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_edit_interfaces_d_.saveevent.html" class="tsd-signature-type">SaveEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><a href="_grid_types_edit_interfaces_d_.deleteevent.html" class="tsd-signature-type">DeleteEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:2247</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2371</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3487,7 +3730,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Data<wbr>Change<wbr>Request<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_interfaces_d_.datachangerequestevent.html" class="tsd-signature-type">DataChangeRequestEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1748</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1767</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3542,7 +3785,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Data<wbr>Change<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_edit_interfaces_d_.saveevent.html" class="tsd-signature-type">SaveEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><a href="_grid_types_edit_interfaces_d_.deleteevent.html" class="tsd-signature-type">DeleteEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:2224</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2348</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3596,7 +3839,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Data<wbr>Load<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1586</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1605</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3646,7 +3889,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Data<wbr>Load<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_grid_interfaces_d_.dataloadstartevent.html" class="tsd-signature-type">DataLoadStartEvent</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">DataReturnType</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1561</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1580</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3683,7 +3926,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Data<wbr>Request<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_interfaces_d_.datarequestevent.html" class="tsd-signature-type">DataRequestEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1724</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1743</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3738,7 +3981,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Delete<wbr>Dialog<wbr>Open<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>eventArgs<span class="tsd-signature-symbol">: </span><a href="_grid_types_edit_interfaces_d_.deletedialogeventargs.html" class="tsd-signature-type">DeleteDialogEventArgs</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:2304</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2428</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3804,7 +4047,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Error<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Error</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1673</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1692</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3857,7 +4100,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Filter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_filter_interfaces_d_.filterevent.html" class="tsd-signature-type">FilterEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1786</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1805</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3911,7 +4154,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Filter<wbr>Dialog<wbr>After<wbr>Open<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_filter_interfaces_d_.filterdialogafteropenevent.html" class="tsd-signature-type">FilterDialogAfterOpenEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1817</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1836</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3965,7 +4208,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Filter<wbr>Dialog<wbr>Before<wbr>Open<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_filter_interfaces_d_.filterdialogbeforeopenevent.html" class="tsd-signature-type">FilterDialogBeforeOpenEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1794</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1813</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4002,7 +4245,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Filter<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_filter_interfaces_d_.filterevent.html" class="tsd-signature-type">FilterEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1763</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1782</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4039,7 +4282,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Form<wbr>Render<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_edit_interfaces_d_.formrenderevent.html" class="tsd-signature-type">FormRenderEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:2201</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2325</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4093,7 +4336,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Grid<wbr>Destroy<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1755</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1774</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4123,7 +4366,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Grid<wbr>Init<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1553</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1572</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4154,7 +4397,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Grid<wbr>Render<wbr>Complete<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1611</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1630</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4204,25 +4447,35 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Grid<wbr>Render<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1545</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1564</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Fires at the start of grid initialization before data processing.
-						Useful for initial configurations or showing loading indicators.</p>
+						<p>Fires at the start of grid initialization before data processing. and component mount.
+							This event is triggered during the React render phase, before the component is mounted to the DOM.
+							Useful for initial configurations or showing loading indicators.
+							Do not perform state updates in this callback, as they will trigger React warnings
+						about updating unmounted components. Use <code>onGridRenderComplete</code> instead for state updates.</p>
 					</div>
 					<dl class="tsd-comment-tags">
 						<dt>example</dt>
 						<dd><pre><code class="language-tsx">const GridComponent = () =&gt; {
-  const handleGridRender = () =&gt; {
-    // handle your action here
+  const handleGridRenderStart = () =&gt; {
+    // Safe: Logging only - no state updates
+    console.log(&#39;Grid render starting&#39;);
+  };
+
+  const handleGridRenderComplete = () =&gt; {
+    // Safe: State updates after mount (use this callback for state updates)
+    setGridReady(true);
   };
 
   return (
     &lt;Grid
       dataSource={data}
-      onGridRenderStart={handleGridRender}
+      onGridRenderStart={handleGridRenderStart}
+      onGridRenderComplete={handleGridRenderComplete}
     /&gt;
   );
 };</code></pre>
@@ -4251,7 +4504,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Header<wbr>Cell<wbr>Render<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_interfaces_d_.headercellrenderevent.html" class="tsd-signature-type">HeaderCellRenderEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1619</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1638</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4288,7 +4541,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Page<wbr>Change<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_page_interfaces_d_.pageevent.html" class="tsd-signature-type">PageEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:2131</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2255</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4342,7 +4595,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Page<wbr>Change<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_page_interfaces_d_.pageevent.html" class="tsd-signature-type">PageEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:2108</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2232</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4378,7 +4631,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Refresh<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1700</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1719</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4424,7 +4677,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Row<wbr>Add<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_edit_interfaces_d_.rowaddevent.html" class="tsd-signature-type">RowAddEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:2178</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2302</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4478,7 +4731,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Row<wbr>Deselect<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_selection_interfaces_d_.rowselectevent.html" class="tsd-signature-type">RowSelectEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:2101</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2120</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4533,7 +4786,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Row<wbr>Deselecting<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_selection_interfaces_d_.rowselectingevent.html" class="tsd-signature-type">RowSelectingEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:2077</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2096</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4570,7 +4823,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Row<wbr>Double<wbr>Click<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_grid_interfaces_d_.recorddoubleclickevent.html" class="tsd-signature-type">RecordDoubleClickEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1958</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1977</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4625,7 +4878,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Row<wbr>Edit<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_edit_interfaces_d_.roweditevent.html" class="tsd-signature-type">RowEditEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:2155</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2279</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4680,7 +4933,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Row<wbr>Render<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_interfaces_d_.rowrenderevent.html" class="tsd-signature-type">RowRenderEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1643</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1662</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4717,7 +4970,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Row<wbr>Select<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_selection_interfaces_d_.rowselectevent.html" class="tsd-signature-type">RowSelectEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:2069</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2088</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4772,7 +5025,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Row<wbr>Selecting<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_selection_interfaces_d_.rowselectingevent.html" class="tsd-signature-type">RowSelectingEvent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:2045</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2064</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4809,7 +5062,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Search<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_search_interfaces_d_.searchevent.html" class="tsd-signature-type">SearchEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1934</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1953</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4866,7 +5119,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Search<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_search_interfaces_d_.searchevent.html" class="tsd-signature-type">SearchEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1908</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1927</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4903,7 +5156,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Sort<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_sort_interfaces_d_.sortevent.html" class="tsd-signature-type">SortEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1900</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1919</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4957,7 +5210,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Sort<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_sort_interfaces_d_.sortevent.html" class="tsd-signature-type">SortEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1877</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1896</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -4994,7 +5247,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Toolbar<wbr>Item<wbr>Click<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><a href="_grid_types_toolbar_interfaces_d_.toolbarclickevent.html" class="tsd-signature-type">ToolbarClickEvent</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1983</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2002</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5053,7 +5306,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">aggregates<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">AggregateRowProps</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1246</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1255</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5098,7 +5351,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">allow<wbr>Keyboard<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:757</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:766</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5127,7 +5380,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">children<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ReactElement</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_interfaces_d_.irowbase.html" class="tsd-signature-type">IRowBase</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ReactElement</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_interfaces_d_.irowbase.html" class="tsd-signature-type">IRowBase</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ReactNode</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1092</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1101</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5148,7 +5401,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">clip<wbr>Mode<span class="tsd-signature-symbol">:</span> <a href="../enums/_grid_types_enum_d_.clipmode.html" class="tsd-signature-type">ClipMode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:766</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:775</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5173,7 +5426,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">column<wbr>Chooser<wbr>Settings<span class="tsd-signature-symbol">:</span> <a href="_grid_types_grid_interfaces_d_.columnchoosersettings.html" class="tsd-signature-type">ColumnChooserSettings</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1350</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1359</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5190,7 +5443,7 @@ return (
 					</ul>
 					<dl class="tsd-comment-tags">
 						<dt>default</dt>
-						<dd><p>{ enableSearching: true, operator: &#39;startsWith&#39;, ignoreAccent: false, sortDirection: &#39;None&#39;, selectedColumns: [] }</p>
+						<dd><p>{ enableSearch: true, operator: &#39;startsWith&#39;, ignoreAccent: false, sortDirection: &#39;None&#39;, selectedColumns: [] }</p>
 						</dd>
 						<dt>example</dt>
 						<dd><pre><code class="language-tsx">&lt;Grid
@@ -5198,7 +5451,7 @@ return (
   toolbar={[&#39;ColumnChooser&#39;]}
   showColumnChooser={true}
   columnChooserSettings={{
-    enableSearching: true,
+    enableSearch: true,
     operator: &#39;contains&#39;,
     ignoreAccent: true,
     sortDirection: &#39;Ascending&#39;,
@@ -5215,7 +5468,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">columns<span class="tsd-signature-symbol">:</span> <a href="_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:655</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:664</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5255,7 +5508,7 @@ return (
 				<div class="tsd-signature tsd-kind-icon">context<wbr>Menu<wbr>Settings<span class="tsd-signature-symbol">:</span> <a href="_grid_types_context_interfaces_d_.contextmenusettings.html" class="tsd-signature-type">ContextMenuSettings</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1427</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1436</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5284,10 +5537,10 @@ return (
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="datasource" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagOptional">Optional</span> data<wbr>Source</h3>
-				<div class="tsd-signature tsd-kind-icon">data<wbr>Source<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">DataManager</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">DataResult</span></div>
+				<div class="tsd-signature tsd-kind-icon">data<wbr>Source<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">DataManager</span><span class="tsd-signature-symbol"> | </span><a href="_grid_types_infinite_scroll_interface_d_.dataresponse.html" class="tsd-signature-type">DataResponse</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:626</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:635</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5298,7 +5551,7 @@ return (
 					<ul>
 						<li>An array of JavaScript objects</li>
 						<li>A <code>DataManager</code> instance for local/remote data operations</li>
-						<li>A <code>DataResult</code> object with processed data</li>
+						<li>A <code>DataResponse</code> object with processed data</li>
 					</ul>
 					<p>The grid will automatically bind to this data and render rows based on the provided records.</p>
 					<dl class="tsd-comment-tags">
@@ -5332,7 +5585,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">edit<wbr>Settings<span class="tsd-signature-symbol">:</span> <a href="_grid_types_edit_interfaces_d_.editsettings.html" class="tsd-signature-type">EditSettings</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1271</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1280</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5368,7 +5621,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">empty<wbr>Record<wbr>Template<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ComponentType</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ReactElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1181</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1190</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5411,7 +5664,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">enable<wbr>Alt<wbr>Row<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:792</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:801</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5447,7 +5700,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">enable<wbr>Hover<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:739</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:748</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5476,7 +5729,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">enable<wbr>Html<wbr>Sanitizer<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:959</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:968</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5505,7 +5758,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">enable<wbr>Rtl<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:810</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:819</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5534,7 +5787,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">enable<wbr>Sticky<wbr>Header<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:978</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:987</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5564,7 +5817,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">filter<wbr>Settings<span class="tsd-signature-symbol">:</span> <a href="_grid_types_filter_interfaces_d_.filtersettings.html" class="tsd-signature-type">FilterSettings</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:897</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:906</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5598,7 +5851,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Row<wbr>Height<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>props<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Partial</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_grid_interfaces_d_.rowinfo.html" class="tsd-signature-type">RowInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1035</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1044</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5651,7 +5904,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">grid<wbr>Lines<span class="tsd-signature-symbol">:</span> <a href="../enums/_grid_types_enum_d_.gridline.html" class="tsd-signature-type">GridLine</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:721</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:730</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5686,7 +5939,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">height<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:677</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:686</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5720,7 +5973,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:593</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:602</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5749,7 +6002,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">is<wbr>Row<wbr>Selectable<span class="tsd-signature-symbol">:</span> <a href="../modules/_grid_types_selection_interfaces_d_.html#isrowselectable" class="tsd-signature-type">IsRowSelectable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:852</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:861</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5789,7 +6042,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">loading<wbr>Indicator<wbr>Settings<span class="tsd-signature-symbol">:</span> <a href="_grid_types_grid_interfaces_d_.loadingindicatorsettings.html" class="tsd-signature-type">LoadingIndicatorSettings</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1407</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1416</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5826,7 +6079,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">locale<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1120</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1129</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5848,7 +6101,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">locale<wbr>Obj<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">IL10n</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1110</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1119</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5863,7 +6116,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">on<wbr>Refresh<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1679</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1698</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5899,7 +6152,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">page<wbr>Settings<span class="tsd-signature-symbol">:</span> <a href="_grid_types_page_interfaces_d_.pagesettings.html" class="tsd-signature-type">PageSettings</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:941</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:950</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5932,7 +6185,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">query<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Query</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1149</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1158</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -5972,7 +6225,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">row<wbr>Class<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>props<span class="tsd-signature-symbol">?: </span><a href="_grid_types_grid_interfaces_d_.rowclassprops.html" class="tsd-signature-type">RowClassProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1381</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1390</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -6020,7 +6273,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">row<wbr>Height<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1017</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1026</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -6052,7 +6305,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">row<wbr>Template<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ComponentType</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ReactElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1212</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1221</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -6094,7 +6347,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">search<wbr>Settings<span class="tsd-signature-symbol">:</span> <a href="_grid_types_search_interfaces_d_.searchsettings.html" class="tsd-signature-type">SearchSettings</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:920</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:929</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -6129,7 +6382,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">selection<wbr>Settings<span class="tsd-signature-symbol">:</span> <a href="_grid_types_selection_interfaces_d_.selectionsettings.html" class="tsd-signature-type">SelectionSettings</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:830</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:839</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -6161,7 +6414,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">service<wbr>Locator<span class="tsd-signature-symbol">:</span> <a href="_grid_types_interfaces_d_.servicelocator.html" class="tsd-signature-type">ServiceLocator</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1104</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1113</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -6176,7 +6429,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">show<wbr>Column<wbr>Chooser<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1321</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1330</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -6214,7 +6467,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">sort<wbr>Settings<span class="tsd-signature-symbol">:</span> <a href="_grid_types_sort_interfaces_d_.sortsettings.html" class="tsd-signature-type">SortSettings</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:875</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:884</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -6249,7 +6502,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">text<wbr>Wrap<wbr>Settings<span class="tsd-signature-symbol">:</span> <a href="_grid_types_grid_interfaces_d_.textwrapsettings.html" class="tsd-signature-type">TextWrapSettings</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:998</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1007</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -6281,7 +6534,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">theme<span class="tsd-signature-symbol">:</span> <a href="../enums/_grid_types_enum_d_.theme.html" class="tsd-signature-type">Theme</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1057</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1066</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -6313,7 +6566,7 @@ import &#39;@syncfusion/react-grids/styles/material.css&#39;;
 				<div class="tsd-signature tsd-kind-icon">toolbar<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="_grid_types_toolbar_interfaces_d_.toolbaritemprops.html" class="tsd-signature-type">ToolbarItemProps</a><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1294</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1303</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -6347,7 +6600,7 @@ import &#39;@syncfusion/react-grids/styles/material.css&#39;;
 				<div class="tsd-signature tsd-kind-icon">value<wbr>Formatter<wbr>Service<span class="tsd-signature-symbol">:</span> <a href="_grid_types_interfaces_d_.ivalueformatter.html" class="tsd-signature-type">IValueFormatter</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1098</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1107</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -6362,7 +6615,7 @@ import &#39;@syncfusion/react-grids/styles/material.css&#39;;
 				<div class="tsd-signature tsd-kind-icon">virtualization<wbr>Settings<span class="tsd-signature-symbol">:</span> <a href="_grid_types_virtualization_interface_d_.virtualizationsettings.html" class="tsd-signature-type">VirtualizationSettings</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:1083</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:1092</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -6400,7 +6653,7 @@ import &#39;@syncfusion/react-grids/styles/material.css&#39;;
 				<div class="tsd-signature tsd-kind-icon">width<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:699</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:708</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
